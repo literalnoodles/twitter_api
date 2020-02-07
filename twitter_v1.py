@@ -287,37 +287,7 @@ def download_media(user,folder,type='photo',limit=None,include_rts=True,time_ran
 			break
 
 
-# f = open("D:\\Programing\\Python\\test.txt",'a',encoding='utf-8')
-# time_range = (time.strptime("2019","%Y"),time.gmtime())
-download_media("yngyrn0419",folder = "D:\\Programing\\Python\\photo",limit=200)
-# f.close()
+#example
+#download_media("donald_trump",folder = "D:\\Programing\\Python\\photo",limit=200)
 
-
-# # f = open("D:\\Programing\\Python\\test.txt",'a',encoding='utf-8')
-# App = twitter_api('Marzzzzzy')
-# App.set_count(20)
-# App.fetch()
-# App.print_tweet('all')
-# App.fetch()
-# App.print_tweet()
-# # f.close()
-
-
-	# list = App.get_tweet_media(type='photo',include_rts=True)
-	# thread_download(list,"D:\\Programing\\Python\\photo",4)
-
-# for i in range(2):
-# 	App.fetch()
-# 	App.print_tweet()
-
-# test=[]
-# for i in range(10):
-# 	App.fetch()
-# 	list = App.get_tweet_media('video')
-# 	t = threading.Thread(target = thread_download,args=(list,"D:\\Programing\\Python\\photo",4))
-# 	test.append(t)
-# 	t.start()
-# 	# thread_download(list,"D:\\Programing\\Python\\photo",4)
-# for t in test:
-# 	t.join()
 
